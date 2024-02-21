@@ -1,0 +1,65 @@
+.task-container {
+  width: 83%;
+  height: auto;
+  margin: 3.8%;
+  background-color: #004170;
+  position: relative;
+}
+.tasks {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+
+  top: 101px;
+  left: 153px;
+  background-color: #004953;
+
+  position: absolute;
+}
+.inp-btn {
+  width: 90%;
+  margin-top: 10px;
+}
+.btn-add {
+  width: 170px;
+  display: block;
+  margin: 0 auto;
+  background-color: #007791;
+  cursor: pointer;
+}
+.three-btns {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.task-display {
+  width: 80%;
+  background-color: #49796b;
+  color: white;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 13px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.task-styles {
+  font-size: 19px;
+  padding-top: 3px;
+  margin-left: 20px;
+}
+.edit-delete-checked-styles {
+  display: flex;
+  width: 200px;
+
+  font-size: 20px;
+  height: 40px;
+  padding-top: 10.5px;
+}
+.no-task {
+  width: 85%;
+  color: white;
+  margin: 50px auto;
+  font-size: 32px;
+}
